@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: #C5DFC5;
+
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+header .logo {
+    color: grey;
+    font-size: 50px;
+    line-height: 150px;
+    float: left;
+    margin: 30px 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 80px;
+    line-height: 60px;
+    width: 70%;
+
+    border-color: black;
+    border-width: thin;
+    border-style: solid;
+
+    border-left-color: #C5DFC5;
+    border-right-color: #C5DFC5;
+}
+
+header nav a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+}
+
+.conchita {
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
