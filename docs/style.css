@@ -50,3 +50,20 @@ header nav a {
     margin:auto;
     overflow: hidden;
 }
+
+.item {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.div_imagen{
+    width: 50vw;
+    height: fit-content;
+    background-color: blue;
+}
+.div_info{
+    width: 50vw;
+    height: fit-content;
+    background-color: red;
+}
